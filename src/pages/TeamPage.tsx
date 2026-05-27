@@ -61,12 +61,12 @@ const TeamPage = () => {
         </motion.div>
       </S.TeamPageHeader>
 
-      <h1 className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin">
+      <h1 className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin" id="the-board">
         The Board
       </h1>
       <Divider />
       <FounderSection />
-      <T.TeamSection>
+      <T.TeamSection id="our-team">
         <Team
           teamMembers={boardMembers}
           desktopView={defaultView}

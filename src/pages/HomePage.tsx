@@ -110,9 +110,11 @@ const HomePage = () => {
         </div>
       </section>
 
-      <ProjectsSection />
+      <div id="projects">
+        <ProjectsSection />
+      </div>
 
-      <section className="homePage__section homePage__section--events">
+      <section className="homePage__section homePage__section--events" id="events">
         <Blobbie
           id={3}
           width={400}
@@ -133,7 +135,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="homePage__section homePage__section--sponsors">
+      <section className="homePage__section homePage__section--sponsors" id="sponsors">
         <Blobbie
           id={9}
           width={800}

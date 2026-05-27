@@ -41,6 +41,7 @@ const ProjectsPage = () => {
       <h2
         className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin"
         style={{ marginTop: "0px" }}
+        id="showcase-winners"
       >
         Final Showcase Winners
       </h2>
@@ -120,13 +121,13 @@ const ProjectsPage = () => {
         </S.WrapDiv>
       </div>
       <ProjectKeywordsSection />
-      <h2 className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin">
+      <h2 className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin" id="featured-projects">
         Featured Projects
       </h2>
       <Divider />
       <FeaturedProjectSection featuredProjects={featuredProjects} />
 
-      <h2 className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin">
+      <h2 className="chonkyHeading chonkyHeading--white chonkyHeading--lessMargin" id="past-projects">
         Past Projects
       </h2>
       <Divider />

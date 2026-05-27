@@ -53,7 +53,7 @@ const ApplyPage = () => {
         </div>
       </header>
 
-      <div className="applyPage__introContainer">
+      <div className="applyPage__introContainer" id="what-we-do">
         <Blobbie
           id={8}
           width={400}
@@ -105,7 +105,7 @@ const ApplyPage = () => {
         <img src={execs_24} alt="Tech Start Members" />
       </div>
 
-      <div className="applyPage__container applyPage__projectIntroContainer">
+      <div className="applyPage__container applyPage__projectIntroContainer" id="faq">
         <div className="applyPage__projectIntroImg">
           <Lottie options={applyPageTeamLottieOptions} />
         </div>
@@ -227,7 +227,7 @@ const ApplyPage = () => {
         />
       </div>
 
-      <div className="applyPage__container applyPage__applicationContainer">
+      <div className="applyPage__container applyPage__applicationContainer" id="applications">
         <div className="applyPage__application">
           <Blobbie
             id={2}

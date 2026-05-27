@@ -74,14 +74,109 @@ const Header = () => {
         </Link>
         <nav className="navbar__content" aria-label="Main navigation">
           <motion.ul initial={{ y: -250 }} animate={{ y: 0 }}>
-            <NavbarLink top="homePageTop" link="/" name="About" />
-            <NavbarLink top="teamPageTop" link="/team" name="Team" />
-            <NavbarLink
-              top="projectsPageTop"
-              link="/projects"
-              name="Projects"
-            />
-            <NavbarLink top="applyPageTop" link="/apply" name="Apply" />
+            <li className="navbar__section">
+              <a href="#">
+                <LinkScroll to="homePageTop" spy={true} offset={-80} duration={500}>
+                  <Link onClick={hideNavbar} to="/">
+                    About
+                  </Link>
+                </LinkScroll>
+              </a>
+              <ul className="navbar__subsections">
+                <li>
+                  <Link onClick={hideNavbar} to="/#projects">
+                    Tech Start Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/#events">
+                    Events
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/#sponsors">
+                    Our Sponsors
+                  </Link>
+                </li>
+              </ul>
+            </li>
+
+            <li className="navbar__section">
+              <a href="#">
+                <LinkScroll to="teamPageTop" spy={true} offset={-80} duration={500}>
+                  <Link onClick={hideNavbar} to="/team">
+                    Team
+                  </Link>
+                </LinkScroll>
+              </a>
+              <ul className="navbar__subsections">
+                <li>
+                  <Link onClick={hideNavbar} to="/team#the-board">
+                    The Board
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/team#our-team">
+                    Our Team
+                  </Link>
+                </li>
+              </ul>
+            </li>
+
+            <li className="navbar__section">
+              <a href="#">
+                <LinkScroll to="projectsPageTop" spy={true} offset={-80} duration={500}>
+                  <Link onClick={hideNavbar} to="/projects">
+                    Projects
+                  </Link>
+                </LinkScroll>
+              </a>
+              <ul className="navbar__subsections">
+                <li>
+                  <Link onClick={hideNavbar} to="/projects#showcase-winners">
+                    Final Showcase Winners
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/projects#featured-projects">
+                    Featured Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/projects#past-projects">
+                    Past Projects
+                  </Link>
+                </li>
+              </ul>
+            </li>
+
+            <li className="navbar__section">
+              <a href="#">
+                <LinkScroll to="applyPageTop" spy={true} offset={-80} duration={500}>
+                  <Link onClick={hideNavbar} to="/apply">
+                    Apply
+                  </Link>
+                </LinkScroll>
+              </a>
+              <ul className="navbar__subsections">
+                <li>
+                  <Link onClick={hideNavbar} to="/apply#what-we-do">
+                    What We Do
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/apply#faq">
+                    FAQ
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={hideNavbar} to="/apply#applications">
+                    Applications
+                  </Link>
+                </li>
+              </ul>
+            </li>
+
             <NavbarLink top="merchPageTop" link="/merch" name="Merch" />
             <NavbarLink top="galleryPageTop" link="/gallery" name="Gallery" />
             <NavbarLink top="docsPageTop" link="/resources" name="Resources" />

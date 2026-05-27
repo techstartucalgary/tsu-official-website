@@ -6,8 +6,8 @@ import TeamPage from "pages/TeamPage";
 import ProjectsPage from "pages/ProjectsPage";
 import MerchPage from "pages/MerchPage";
 
-import { useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom";
 import Navbar from "components/Navbar";
 import Footer from "components/Footer/Footer";
 import "./App.css";
@@ -15,6 +15,26 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "components/ScrollToTop";
 import GalleryPage from "pages/GalleryPage";
+
+function ScrollToHash() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      setTimeout(() => {
+        const id = location.hash.replace('#', '');
+        const element = document.getElementById(id);
+        if (element) {
+          const yOffset = -80;
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   //
@@ -24,6 +44,7 @@ function App() {
   // Use React Router to switch between different pages
   return (
     <Router>
+      <ScrollToHash />
       <ScrollToTop />
       <div className="App">
         <Navbar />
