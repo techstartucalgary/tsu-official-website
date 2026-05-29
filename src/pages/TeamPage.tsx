@@ -10,7 +10,7 @@ import Team from "components/TeamSection/Team";
 import { boardMembers } from "components/TeamSection/TeamInformation";
 import useViewport from "components/UseViewport";
 import Divider from "components/Divider";
-
+import PreviousExecTeam from "components/PreviousExecTeam/PreviousExecTeam";
 
 const TeamPage = () => {
   // set defaultView flag according to screen width cutoff value
@@ -70,10 +70,11 @@ const TeamPage = () => {
         <Team
           teamMembers={boardMembers}
           desktopView={defaultView}
-          activeCategory = "executives"
+          activeCategory="executives"
         />
       </T.TeamSection>
       <TeamSection desktopView={defaultView} />
+      <PreviousExecTeam />
     </S.TeamPage>
   );
 };

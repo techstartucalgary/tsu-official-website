@@ -7,7 +7,7 @@ export enum SocialMediaColor {
   Black = "Black",
   ToggleGreen = "ToggleGreen",
   ToggleBlue = "ToggleBlue",
-  ToggleYellow = "ToggleYellow",
+  ToggleEarthGreen = "ToggleEarthGreen",
   White = "White",
 }
 
@@ -27,8 +27,8 @@ export const handleColor = (color: SocialMediaColor) => {
       return "var(--toggle-green)";
     case SocialMediaColor.ToggleBlue:
       return "var(--toggle-blue)";
-    case SocialMediaColor.ToggleYellow:
-      return "var(--secondary-lime)"
+    case SocialMediaColor.ToggleEarthGreen:
+      return "var(--toggle-earthGreen)"
     case SocialMediaColor.White:
       return "white";
     default:

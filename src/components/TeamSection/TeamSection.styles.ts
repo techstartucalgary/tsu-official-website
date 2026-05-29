@@ -9,7 +9,7 @@ const getStylesForCategory = (category: TeamCategory) => {
     case "projectManagers":
       return { backgroundColor: "var(--lightwash-green)", left: "calc(33.3% + 5px)" };
     case "alumni":
-      return { backgroundColor: "var(--secondary-lime)", left: "calc(66.6% + 5px)" };
+      return { backgroundColor: "var(--toggle-earthGreen)", left: "calc(66.6% + 5px)" };
     default:
       return { backgroundColor: "var(--primary-green)", left: "5px" }; // Default to executives
   }
@@ -41,16 +41,16 @@ export const ToggleButtonWrapper = styled.div`
   align-items: center;
 `;
 
-export const SliderWrapper = styled.div<{ selectedCategory: TeamCategory}>`
+export const SliderWrapper = styled.div<{ selectedCategory: TeamCategory }>`
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 700px;
-  height: 60px;
+  height: 40px;
   background-color: ${({ selectedCategory }) =>
-  selectedCategory === "executives" ? "var(--primary-green)" :
-    selectedCategory === "projectManagers" ? "var(--lightwash-green)" :
-        "var(--secondary-lime)"};
+    selectedCategory === "executives" ? "var(--primary-green)" :
+      selectedCategory === "projectManagers" ? "var(--lightwash-green)" :
+        "var(--toggle-earthGreen)"};
   border-radius: 50px;
   padding: 5px;
 `;
@@ -64,12 +64,13 @@ export const SliderOption = styled.div`
   cursor: pointer;
   padding: 10px 5px;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: var(--regular-font);
+  font-family: "Inter", Tahoma, sans-serif;
   color: #fff;
   z-index: 2;
 
   @media (max-width: 700px) {
-    font-size: 1.2em;
+    font-size: var(--regular-font);
   }
 `;
 
