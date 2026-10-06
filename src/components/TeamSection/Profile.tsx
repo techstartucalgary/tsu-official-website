@@ -6,6 +6,7 @@ import SocialMedia from "components/SocialMedia/SocialMedia";
 import { SocialMediaColor } from "../../utility/SharedStyles";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
+
 // props for team profile
 type ProfileProps = {
   key: number;
@@ -18,27 +19,26 @@ type ProfileProps = {
 
 const getBackgroundColor = (category: string): SocialMediaColor => {
   switch (category) {
-    case "executives":
+    case 'executives':
       return SocialMediaColor.ToggleGreen;
-    case "projectManagers":
+    case 'projectManagers':
       return SocialMediaColor.ToggleBlue;
-    case "alumni":
+    case 'alumni':
       return SocialMediaColor.ToggleYellow;
     default:
       return SocialMediaColor.ToggleBlue;
   }
-};
+}
 
 const Profile = (props: ProfileProps) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const preventDragHandler = (e: any) => e.preventDefault();
+  const linkedin = props.member.linkedin.trim();
 
   // memoize the test data id so its not recalcaulated on every render but only when the member name changes
-  const testDataId = useMemo(
-    () =>
-      `profile-image-${props.member.name.replace(/\s/g, "-").toLowerCase()}`,
-    [props.member.name]
-  );
+  const testDataId = useMemo(() =>
+    `profile-image-${props.member.name.replace(/\s/g, "-").toLowerCase()}`,
+  [props.member.name]);
 
   return (
     <S.ProfileDiv
@@ -54,25 +54,23 @@ const Profile = (props: ProfileProps) => {
             alt={props.member.name}
             onDragStart={preventDragHandler}
             data-testid={testDataId}
-          />
+        />
         </S.ProfileIconDiv>
       )}
 
       <S.LinksSection
         backgroundColor={getBackgroundColor(props.activeCategory)}
-        role={props.member.linkedin ? undefined : "img"}
-        aria-label={
-          props.member.linkedin
-            ? undefined
-            : `LinkedIn profile unavailable for ${props.member.name}`
-        }
+        style={{ visibility: linkedin ? 'visible' : 'hidden' }}
+        aria-hidden={!linkedin}
       >
-        <SocialMedia
-          color={SocialMediaColor.White}
-          icon={faLinkedinIn}
-          link={props.member.linkedin || " "}
-          newTab={true}
-        />
+        {linkedin && (
+          <SocialMedia
+            color={SocialMediaColor.White}
+            icon={faLinkedinIn}
+            link={linkedin}
+            newTab={true}
+          />
+        )}
       </S.LinksSection>
 
       <ProfileDescription
