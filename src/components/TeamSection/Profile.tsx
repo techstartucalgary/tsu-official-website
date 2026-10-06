@@ -33,9 +33,10 @@ const getBackgroundColor = (category: string): SocialMediaColor => {
 const Profile = (props: ProfileProps) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const preventDragHandler = (e: any) => e.preventDefault();
-  
+  const linkedin = props.member.linkedin.trim();
+
   // memoize the test data id so its not recalcaulated on every render but only when the member name changes
-  const testDataId = useMemo(() => 
+  const testDataId = useMemo(() =>
     `profile-image-${props.member.name.replace(/\s/g, "-").toLowerCase()}`,
   [props.member.name]);
 
@@ -50,23 +51,27 @@ const Profile = (props: ProfileProps) => {
           <img
             src={props.profilePic}
             key={props.key}
-            alt={props.alt}
+            alt={props.member.name}
             onDragStart={preventDragHandler}
             data-testid={testDataId}
         />
         </S.ProfileIconDiv>
       )}
 
-      {props.member.linkedin && (
-        <S.LinksSection backgroundColor={getBackgroundColor(props.activeCategory)}>
+      <S.LinksSection
+        backgroundColor={getBackgroundColor(props.activeCategory)}
+        style={{ visibility: linkedin ? 'visible' : 'hidden' }}
+        aria-hidden={!linkedin}
+      >
+        {linkedin && (
           <SocialMedia
             color={SocialMediaColor.White}
             icon={faLinkedinIn}
-            link={props.member.linkedin}
+            link={linkedin}
             newTab={true}
           />
-        </S.LinksSection>
-      )}
+        )}
+      </S.LinksSection>
 
       <ProfileDescription
         name={props.member.name}
