@@ -6,7 +6,6 @@ import SocialMedia from "components/SocialMedia/SocialMedia";
 import { SocialMediaColor } from "../../utility/SharedStyles";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
-
 // props for team profile
 type ProfileProps = {
   key: number;
@@ -19,25 +18,27 @@ type ProfileProps = {
 
 const getBackgroundColor = (category: string): SocialMediaColor => {
   switch (category) {
-    case 'executives':
+    case "executives":
       return SocialMediaColor.ToggleGreen;
-    case 'projectManagers':
+    case "projectManagers":
       return SocialMediaColor.ToggleBlue;
-    case 'alumni':
+    case "alumni":
       return SocialMediaColor.ToggleYellow;
     default:
       return SocialMediaColor.ToggleBlue;
   }
-}
+};
 
 const Profile = (props: ProfileProps) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const preventDragHandler = (e: any) => e.preventDefault();
-  
+
   // memoize the test data id so its not recalcaulated on every render but only when the member name changes
-  const testDataId = useMemo(() => 
-    `profile-image-${props.member.name.replace(/\s/g, "-").toLowerCase()}`,
-  [props.member.name]);
+  const testDataId = useMemo(
+    () =>
+      `profile-image-${props.member.name.replace(/\s/g, "-").toLowerCase()}`,
+    [props.member.name]
+  );
 
   return (
     <S.ProfileDiv
@@ -50,23 +51,29 @@ const Profile = (props: ProfileProps) => {
           <img
             src={props.profilePic}
             key={props.key}
-            alt={props.alt}
+            alt={props.member.name}
             onDragStart={preventDragHandler}
             data-testid={testDataId}
-        />
+          />
         </S.ProfileIconDiv>
       )}
 
-      {props.member.linkedin && (
-        <S.LinksSection backgroundColor={getBackgroundColor(props.activeCategory)}>
-          <SocialMedia
-            color={SocialMediaColor.White}
-            icon={faLinkedinIn}
-            link={props.member.linkedin}
-            newTab={true}
-          />
-        </S.LinksSection>
-      )}
+      <S.LinksSection
+        backgroundColor={getBackgroundColor(props.activeCategory)}
+        role={props.member.linkedin ? undefined : "img"}
+        aria-label={
+          props.member.linkedin
+            ? undefined
+            : `LinkedIn profile unavailable for ${props.member.name}`
+        }
+      >
+        <SocialMedia
+          color={SocialMediaColor.White}
+          icon={faLinkedinIn}
+          link={props.member.linkedin || " "}
+          newTab={true}
+        />
+      </S.LinksSection>
 
       <ProfileDescription
         name={props.member.name}

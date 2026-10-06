@@ -9,136 +9,94 @@
   },
   "executiveTeam": [
     {
-      "name": "Maheen Raza",
-      "affiliation": "Co-President",
-      "imagePath": "Maheen_Raza.jpg",
-      "linkedin": "https://www.linkedin.com/in/maheen-raza-40b780229/"
-    },
-    {
-      "name": "Youssef Hamed",
-      "affiliation": "Co-President",
-      "imagePath": "Youssef_Hamed.jpeg",
-      "linkedin": "https://www.linkedin.com/in/youssef-walid-hamed/"
-    },
-    {
-      "name": "Kameel Kasumu",
-      "affiliation": "VP Internal",
-      "imagePath": "Kameel_Kasumu.jpg",
-      "linkedin": "https://www.linkedin.com/in/ka-kasumu/"
-    },
-    {
-      "name": "Maliha Chowdhury Adrita",
-      "affiliation": "VP Community",
-      "imagePath": "Maliha_Chowdhury_Adrita.jpg",
-      "linkedin": "https://www.linkedin.com/in/malihachowdhuryadrita/"
-    },
-    {
-      "name": "Azlfa Anwar",
-      "affiliation": "Co-VP Events",
-      "imagePath": "Azlfa_Anwar.jpeg",
-      "linkedin": "https://www.linkedin.com/in/azlfa-anwar"
-    },
-    {
-      "name": "Oluchukwu Ani",
-      "affiliation": "Co-VP Events",
-      "imagePath": "Oluchukwu_Ani.jpeg",
-      "linkedin": "https://www.linkedin.com/in/oluchukwu-ani/"
-    },
-    {
-      "name": "Brian Oh",
-      "affiliation": "Jr. VP Events",
-      "imagePath": "Brian_Oh.jpeg",
-      "linkedin": "https://www.linkedin.com/in/brian-oh-3adr34"
-    },
-    {
-      "name": "Sneegha Mohanakrishnan Rekha",
-      "affiliation": "Jr. VP Events",
-      "imagePath": "Sneegha_Mohanakrishnan_Rekha.jpg",
-      "linkedin": "https://www.linkedin.com/in/sneegha-mohanakrishnan-rekha/"
-    },
-    {
-      "name": "Saqib Mazhar",
-      "affiliation": "Co-VP External",
-      "imagePath": "Saqib_Mazhar_JrVpExternal.jpg",
-      "linkedin": "https://www.linkedin.com/in/saqib-mazhar/"
-    },
-    {
-      "name": "Svara Patel",
-      "affiliation": "Co-VP External",
-      "imagePath": "Svara_Patel.jpg",
-      "linkedin": "https://www.linkedin.com/in/svara-patel/"
-    },
-    {
-      "name": "Tara Cherian",
-      "affiliation": "Jr. VP External",
-      "imagePath": "Tara_Cherian.jpg",
-      "linkedin": "https://www.linkedin.com/in/tara-cherian/"
-    },
-    {
-      "name": "Rumaisa Talukder",
-      "affiliation": "VP Design",
-      "imagePath": "Rumaisa_Talukder.jpg",
-      "linkedin": "https://www.linkedin.com/in/rumaisa-talukder/"
-    },
-    {
-      "name": "Esther Thompson",
-      "affiliation": "Co-VP Communications",
-      "imagePath": "Esther_Thompson.jpg",
-      "linkedin": "https://www.linkedin.com/in/esther-thompson-2436911b4/"
-    },
-    {
-      "name": "Estefy Caballero",
-      "affiliation": "Co-VP Communications",
-      "imagePath": "Estefy_Caballero.jpg",
-      "linkedin": "https://www.linkedin.com/in/estefania-caballero-864aab25a/"
-    },
-    {
-      "name": "Md Samiu Hossain",
-      "affiliation": "Jr. VP Communications",
-      "imagePath": "Md_Hossain.jpg",
-      "linkedin": "https://www.linkedin.com/in/mdsamiuhossain/?originalSubdomain=ca"
-    },
-    {
-      "name": "Naasha Golwala",
-      "affiliation": "Jr. VP Communications",
-      "imagePath": "Naasha_Golwala.JPG",
-      "linkedin": "https://www.linkedin.com/in/naasha-golwala-67b913302/?originalSubdomain=ca"
-    },
-    {
-      "name": "Aleena Sheikh",
-      "affiliation": "VP Finance",
-      "imagePath": "Aleena_Sheikh.jpg",
-      "linkedin": "https://www.linkedin.com/in/aleena-sheikh-a67236303/"
-    },
-    {
-      "name": "Mehrnaz Zafari",
-      "affiliation": "VP Development",
-      "imagePath": "Mehrnaz_Zafari.jpg",
-      "linkedin": "https://www.linkedin.com/in/mehrnaz-zafari/"
-    },
-    {
       "name": "Farah Shamsi",
-      "affiliation": "VP Strategy",
+      "affiliation": "Co-President",
       "imagePath": "Farah_Shamsi.jpg",
       "linkedin": "https://www.linkedin.com/in/farah-shamsi"
     },
     {
-      "name": "Paul Hui",
-      "affiliation": "Advisor",
-      "imagePath": "Paul_Hui.jpg",
-      "linkedin": "https://www.linkedin.com/in/pcyhui//"
+      "name": "Debojeet Dam",
+      "affiliation": "Co-President",
+      "imagePath": "Debojeet_Dam.jpeg",
+      "linkedin": "https://www.linkedin.com/in/debojeetdam/"
+    },
+    {
+      "name": "Taimoor Kiani",
+      "affiliation": "VP Internal",
+      "imagePath": "Taimoor_Kiani.png",
+      "linkedin": "https://www.linkedin.com/in/taimoorkiani"
+    },
+    {
+      "name": "Md Samiu Hossain",
+      "affiliation": "VP Communications",
+      "imagePath": "Md_Hossain.jpg",
+      "linkedin": "https://www.linkedin.com/in/mdsamiuhossain/?originalSubdomain=ca"
+    },
+    {
+      "name": "Petia Pynadath",
+      "affiliation": "VP Communications",
+      "imagePath": "Petia_Pynadath.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Sahajvir Sahota",
+      "affiliation": "VP Finance",
+      "imagePath": "Sahajvir_Sahota.jpg",
+      "linkedin": "https://www.linkedin.com/in/sahajvir-sahota-73389836b/"
+    },
+    {
+      "name": "Alen Reni Thomas",
+      "affiliation": "Co-VP External",
+      "imagePath": "Alen_Reni_Thomas.jpg",
+      "linkedin": "https://www.linkedin.com/in/alenrenithomas/"
+    },
+    {
+      "name": "Brian Oh",
+      "affiliation": "Co-VP External",
+      "imagePath": "Brian_Oh.jpeg",
+      "linkedin": "https://www.linkedin.com/in/brian-oh-3adr34"
+    },
+    {
+      "name": "Khuzaymah Bin Haris",
+      "affiliation": "VP Development",
+      "imagePath": "Khuzaymah_Bin_Haris.png",
+      "linkedin": "https://www.linkedin.com/in/khuzaymah/"
+    },
+    {
+      "name": "Ajay Karthikeyan",
+      "affiliation": "VP Design",
+      "imagePath": "Ajay_Karthikeyan.jpg",
+      "linkedin": "https://www.linkedin.com/in/ajay-k-290683266/"
+    },
+    {
+      "name": "Adaan Ahmed",
+      "affiliation": "VP Strategy",
+      "imagePath": "Adaan_Ahmed.jpg",
+      "linkedin": "https://www.linkedin.com/in/adaanahmad/"
+    },
+    {
+      "name": "Oluchukwu Ani",
+      "affiliation": "VP Events",
+      "imagePath": "Oluchukwu_Ani.jpeg",
+      "linkedin": "https://www.linkedin.com/in/oluchukwu-ani/"
+    },
+    {
+      "name": "Ali Hamed",
+      "affiliation": "Jr. VP Events",
+      "imagePath": "Ali_Hamed.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Tahseen Sohrab",
+      "affiliation": "Jr. VP Events",
+      "imagePath": "Tahseen_Sohrab.jpg",
+      "linkedin": "https://www.linkedin.com/in/tahseen-sohrab-82163340a/"
     },
     {
       "name": "Shivanshi Visvanatha",
       "affiliation": "Website Lead",
       "imagePath": "Shivanshi_Visvanatha.jpeg",
       "linkedin": "https://www.linkedin.com/in/shivanshi-visvanatha-a4a598382"
-    },
-    {
-      "name": "Raisa Fairuz",
-      "affiliation": "Website Developer",
-      "imagePath": "Raisa_Fairuz.jpg",
-      "linkedin": "https://www.linkedin.com/in/raisa-fairuz-2077b920a/"
     },
     {
       "name": "Mico Ben Issa",
@@ -151,44 +109,56 @@
       "affiliation": "Website Developer",
       "imagePath": "Luis_Hernandez.jpg",
       "linkedin": "https://www.linkedin.com/in/ucalgary-luis-hernandez/"
+    },
+    {
+      "name": "Kayden Le",
+      "affiliation": "Website Developer",
+      "imagePath": "Kayden_Le.png",
+      "linkedin": "https://www.linkedin.com/in/le-kayden/"
+    },
+    {
+      "name": "Zaine Ancheta",
+      "affiliation": "Website Developer",
+      "imagePath": "Zaine_Ancheta.png",
+      "linkedin": "https://www.linkedin.com/in/zaine-ancheta/"
     }
   ],
   "projectManagers": [
     {
-      "name": "Debojeet Dam",
+      "name": "Muneeb Ali",
       "affiliation": "Project Manager",
-      "imagePath": "Debojeet_Dam.jpeg",
-      "linkedin": "https://www.linkedin.com/in/debojeetdam/"
+      "imagePath": "Muneeb_Ali.png",
+      "linkedin": "https://www.linkedin.com/in/muneebalichishti01/"
     },
     {
-      "name": "Divakar Gaba",
+      "name": "Abdelrahman Attia",
       "affiliation": "Project Manager",
-      "imagePath": "Divakar_Gaba.jpg",
-      "linkedin": "https://www.linkedin.com/in/divakar-gaba-776b0624b/"
+      "imagePath": "Abdelrahman_Attia.png",
+      "linkedin": "https://www.linkedin.com/in/abdelrahman-attia-21bb71332/"
     },
     {
-      "name": "Gurjit Samra",
+      "name": "Aaryan Dhand",
       "affiliation": "Project Manager",
-      "imagePath": "Gurjit_Samra.PNG",
-      "linkedin": "https://www.linkedin.com/in/gurjit-samra/"
+      "imagePath": "Aaryan_Dhand.png",
+      "linkedin": "https://www.linkedin.com/in/aaryandhand/"
     },
     {
-      "name": "Huzaifa Shahid",
+      "name": "Ibad Hassan",
       "affiliation": "Project Manager",
-      "imagePath": "Huzaifa_Shahid.jpg",
-      "linkedin": "https://www.linkedin.com/in/huzaifa-shahid2/"
+      "imagePath": "Ibad_Hassan.png",
+      "linkedin": "https://www.linkedin.com/in/ibadmh/"
     },
     {
-      "name": "Luca Rios",
+      "name": "Abrar Rehan",
       "affiliation": "Project Manager",
-      "imagePath": "Luca_Rios.jpeg",
-      "linkedin": "https://www.linkedin.com/in/lujarios/"
+      "imagePath": "Abrar_Rehan.png",
+      "linkedin": "https://www.linkedin.com/in/abrar-rehan-266aa31b6/"
     },
     {
-      "name": "Rami Maalouf",
+      "name": "Talha Zafar",
       "affiliation": "Project Manager",
-      "imagePath": "Rami_Maalouf.jpg",
-      "linkedin": "https://www.linkedin.com/in/rami-m/"
+      "imagePath": "Talha_Zafar.png",
+      "linkedin": "https://www.linkedin.com/in/talhazafar109/"
     }
   ],
   "alumniTeam": [
@@ -221,38 +191,170 @@
       "affiliation": "Alumni VP Development",
       "imagePath": "Ben_Schmidt.jpg",
       "linkedin": "https://www.linkedin.com/in/benschmidt2343/"
+    },
+    {
+      "name": "Kameel Kasumu",
+      "affiliation": "Alumni VP Internal",
+      "imagePath": "Kameel_Kasumu.jpg",
+      "linkedin": "https://www.linkedin.com/in/ka-kasumu/"
+    },
+    {
+      "name": "Maliha Chowdhury Adrita",
+      "affiliation": "Alumni VP Community",
+      "imagePath": "Maliha_Chowdhury_Adrita.jpg",
+      "linkedin": "https://www.linkedin.com/in/malihachowdhuryadrita/"
+    },
+    {
+      "name": "Azlfa Anwar",
+      "affiliation": "Alumni Co-VP Events",
+      "imagePath": "Azlfa_Anwar.jpeg",
+      "linkedin": "https://www.linkedin.com/in/azlfa-anwar"
+    },
+    {
+      "name": "Sneegha Mohanakrishnan Rekha",
+      "affiliation": "Alumni Jr. VP Events",
+      "imagePath": "Sneegha_Mohanakrishnan_Rekha.jpg",
+      "linkedin": "https://www.linkedin.com/in/sneegha-mohanakrishnan-rekha/"
+    },
+    {
+      "name": "Saqib Mazhar",
+      "affiliation": "Alumni Co-VP External",
+      "imagePath": "Saqib_Mazhar_JrVpExternal.jpg",
+      "linkedin": "https://www.linkedin.com/in/saqib-mazhar/"
+    },
+    {
+      "name": "Svara Patel",
+      "affiliation": "Alumni Co-VP External",
+      "imagePath": "Svara_Patel.jpg",
+      "linkedin": "https://www.linkedin.com/in/svara-patel/"
+    },
+    {
+      "name": "Tara Cherian",
+      "affiliation": "Alumni Jr. VP External",
+      "imagePath": "Tara_Cherian.jpg",
+      "linkedin": "https://www.linkedin.com/in/tara-cherian/"
+    },
+    {
+      "name": "Rumaisa Talukder",
+      "affiliation": "Alumni VP Design",
+      "imagePath": "Rumaisa_Talukder.jpg",
+      "linkedin": "https://www.linkedin.com/in/rumaisa-talukder/"
+    },
+    {
+      "name": "Esther Thompson",
+      "affiliation": "Alumni Co-VP Communications",
+      "imagePath": "Esther_Thompson.jpg",
+      "linkedin": "https://www.linkedin.com/in/esther-thompson-2436911b4/"
+    },
+    {
+      "name": "Estefy Caballero",
+      "affiliation": "Alumni Co-VP Communications",
+      "imagePath": "Estefy_Caballero.jpg",
+      "linkedin": "https://www.linkedin.com/in/estefania-caballero-864aab25a/"
+    },
+    {
+      "name": "Naasha Golwala",
+      "affiliation": "Alumni Jr. VP Communications",
+      "imagePath": "Naasha_Golwala.JPG",
+      "linkedin": "https://www.linkedin.com/in/naasha-golwala-67b913302/?originalSubdomain=ca"
+    },
+    {
+      "name": "Aleena Sheikh",
+      "affiliation": "Alumni VP Finance",
+      "imagePath": "Aleena_Sheikh.jpg",
+      "linkedin": "https://www.linkedin.com/in/aleena-sheikh-a67236303/"
+    },
+    {
+      "name": "Mehrnaz Zafari",
+      "affiliation": "Alumni VP Development",
+      "imagePath": "Mehrnaz_Zafari.jpg",
+      "linkedin": "https://www.linkedin.com/in/mehrnaz-zafari/"
+    },
+    {
+      "name": "Paul Hui",
+      "affiliation": "Alumni Advisor",
+      "imagePath": "Paul_Hui.jpg",
+      "linkedin": "https://www.linkedin.com/in/pcyhui//"
+    },
+    {
+      "name": "Raisa Fairuz",
+      "affiliation": "Alumni Website Developer",
+      "imagePath": "Raisa_Fairuz.jpg",
+      "linkedin": "https://www.linkedin.com/in/raisa-fairuz-2077b920a/"
+    },
+    {
+      "name": "Divakar Gaba",
+      "affiliation": "Alumni Project Manager",
+      "imagePath": "Divakar_Gaba.jpg",
+      "linkedin": "https://www.linkedin.com/in/divakar-gaba-776b0624b/"
+    },
+    {
+      "name": "Gurjit Samra",
+      "affiliation": "Alumni Project Manager",
+      "imagePath": "Gurjit_Samra.PNG",
+      "linkedin": "https://www.linkedin.com/in/gurjit-samra/"
+    },
+    {
+      "name": "Huzaifa Shahid",
+      "affiliation": "Alumni Project Manager",
+      "imagePath": "Huzaifa_Shahid.jpg",
+      "linkedin": "https://www.linkedin.com/in/huzaifa-shahid2/"
+    },
+    {
+      "name": "Luca Rios",
+      "affiliation": "Alumni Project Manager",
+      "imagePath": "Luca_Rios.jpeg",
+      "linkedin": "https://www.linkedin.com/in/lujarios/"
+    },
+    {
+      "name": "Rami Maalouf",
+      "affiliation": "Alumni Project Manager",
+      "imagePath": "Rami_Maalouf.jpg",
+      "linkedin": "https://www.linkedin.com/in/rami-m/"
     }
   ],
   "boardMembers": [
     {
-      "name": "Aarsh Shah",
-      "affiliation": "2024-2025 President",
-      "imagePath": "Aarsh_Shah.jpg",
-      "linkedin": "https://www.linkedin.com/in/aarsh-shah-0a84161a9/"
-    },
-    {
-      "name": "Rachel Renegado",
-      "affiliation": "2024-2025 President",
-      "imagePath": "Rachel_Renegado.jpg",
-      "linkedin": "https://www.linkedin.com/in/rachel-r-544409201/"
+      "name": "Rajpreet Gill",
+      "affiliation": "Board Member",
+      "imagePath": "Rajpreet_Gill.jpg",
+      "linkedin": "https://www.linkedin.com/in/rajpreet-gill/"
     },
     {
       "name": "Niyousha Raeesinejad",
-      "affiliation": "2022-2024 President",
+      "affiliation": "Board Member",
       "imagePath": "Niyousha_Raeesinejad.jpg",
       "linkedin": "https://www.linkedin.com/in/niyoushar/"
     },
     {
       "name": "Tyler Chan",
-      "affiliation": "2023-2024 President",
+      "affiliation": "Board Member",
       "imagePath": "Tyler_Chan.jpg",
       "linkedin": "https://www.linkedin.com/in/chan-tyler/"
     },
     {
-      "name": "Rajpreet Gill",
-      "affiliation": "2022-2023 President",
-      "imagePath": "Rajpreet_Gill.jpg",
-      "linkedin": "https://www.linkedin.com/in/rajpreet-gill/"
+      "name": "Aarsh Shah",
+      "affiliation": "Board Member",
+      "imagePath": "Aarsh_Shah.jpg",
+      "linkedin": "https://www.linkedin.com/in/aarsh-shah-0a84161a9/"
+    },
+    {
+      "name": "Rachel Renegado",
+      "affiliation": "Board Member",
+      "imagePath": "Rachel_Renegado.jpg",
+      "linkedin": "https://www.linkedin.com/in/rachel-r-544409201/"
+    },
+    {
+      "name": "Youssef Hamed",
+      "affiliation": "Board Member",
+      "imagePath": "Youssef_Hamed.jpeg",
+      "linkedin": "https://www.linkedin.com/in/youssef-walid-hamed/"
+    },
+    {
+      "name": "Maheen Raza",
+      "affiliation": "Board Member",
+      "imagePath": "Maheen_Raza.jpg",
+      "linkedin": "https://www.linkedin.com/in/maheen-raza-40b780229/"
     }
   ]
 }
